@@ -1,0 +1,191 @@
+body{
+    background-image: url(/images/back.avif);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: auto;
+}
+#logo{
+    color: orangered;
+    font-weight: bold;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.ul{
+    list-style-type: none;
+    text-decoration: none;
+    font-weight: bold;
+    color: orangered;
+    display: flex;
+    gap: 30px;
+}
+.icons{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    background-color: rgb(248, 68, 152);
+    align-items: center;
+    justify-content: center;
+    padding-left: 12px;
+    padding-top: 3px;
+    font-size: 26px;
+    color: green;
+    position: relative;
+}
+#cart-count{
+    height: 25px;
+    width: 25px;
+    border-radius: 50%;
+    background-color: red;
+    position: absolute;
+    margin-left: 20px;
+    margin-top: -50px;
+}
+.hold-icons{
+    display: flex;
+    gap: 20px;
+}
+#span{
+    color: black;
+    font-size: medium;
+    margin-left: 10px;
+    position: absolute;
+}
+#shopping{
+    color: orangered;
+    text-align: center;
+    margin-top: 17%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#offer{
+    color: orangered;
+    text-align: center;
+    font-weight: bold;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#main{
+    margin-top: 20%;
+}
+#section-two{
+    margin-top: 7%;
+}
+#section-three{
+    margin-top: 7%;
+}
+#section-four{
+    margin-top: 7%;
+}
+.ul a{
+    text-decoration: none;
+    color: orangered;
+}
+#menue{
+  text-underline-offset: 5px;
+  text-decoration: underline;
+}
+#img{
+    height: 200px;
+    border: 3px solid orangered;
+    border-radius: 10px;
+}
+#add-btn{
+    height: 40px;
+    width: 30%;
+    border-radius: 9px;
+    background-color: orangered;
+    font-weight: bold;
+    margin-left: 18%;
+}
+#item-one{
+    margin-left: 83px;
+    font-weight: bold;
+    color: orangered;
+}
+#item-two{
+    margin-left: 90px;
+    font-weight: bold;
+    color: orangered;
+}
+#item-three{
+    margin-left: 90px;
+    font-weight: bold;
+    color: orangered;
+}
+#price{
+    font-weight: bold;
+    color: orangered;
+    margin-left: 30%;
+}
+#us{
+    color: orangered;
+    font-weight: bold;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+    margin-top: 6%;
+}
+#about{
+    color: orangered;
+    font-weight: bold;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+}
+/* Media Query for small screens (tablets and below) */
+@media (max-width: 768px) {
+    body {
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+
+    #logo {
+        font-size: 24px;  /* Adjust the size of the logo */
+        text-align: center; /* Center the logo */
+        margin-bottom: 10px;
+    }
+
+    .ul {
+        flex-direction: column;  /* Stack the menu items vertically */
+        gap: 10px;
+        align-items: center;
+    }
+
+    .icons {
+        height: 40px;
+        width: 40px;
+        font-size: 20px;  /* Adjust the icon size */
+    }
+
+    #cart-count {
+        height: 20px;
+        width: 20px;
+        margin-left: 15px;
+        margin-top: -40px;
+    }
+
+    #shopping {
+        font-size: 24px;  /* Reduce the size of the shopping heading */
+    }
+
+    #offer {
+        font-size: 18px;  /* Reduce the size of the offer text */
+    }
+
+    #img {
+        height: 150px;  /* Resize the product images for small screens */
+    }
+
+    #add-btn {
+        width: 60%;  /* Make the add to cart button wider */
+        font-size: 14px;
+        margin-left: 20%;
+    }
+
+    /* Make product items full width on small screens */
+    .col-4 {
+        width: 100%;
+        margin-bottom: 20px;  /* Add space between product items */
+    }
+
+    /* Adjustments for sections */
+    #main, #section-two, #section-three, #section-four {
+        margin-top: 10%;
+    }
+}

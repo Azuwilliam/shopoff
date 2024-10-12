@@ -1,0 +1,51 @@
+#name{
+    font-weight: bold;
+    color: orangered;
+    margin-top: 10%;
+}
+#input{
+    width: 60%;
+}
+#order{
+    background-color: orangered;
+    font-weight: bold;
+    height: 40px;
+    width: 10%;
+    border-radius: 30px;
+    margin-top: 14px;
+    margin-left: 10%;
+}
+#back{
+    background-color: orangered;
+    font-weight: bold;
+    height: 40px;
+    width: 10%;
+    border-radius: 30px;
+    margin-top: 60px;
+    margin-left: 10%;
+}
+#total{
+    background-color: orangered;
+    font-weight: bold;
+    height: 40px;
+    width: 10%;
+    border-radius: 30px;
+    margin-left: 10%;
+    margin-top: 3%;
+}
+.total{
+    margin-left: 10%;
+    color: orangered;
+    font-weight: bold;
+    margin-top: 20px;
+}
+#lo{
+    font-weight: bold;
+    color: orangered;
+    margin-top: 10%;
+}
+#no{
+    font-weight: bold;
+    color: orangered;
+    margin-top: 10%;
+}
